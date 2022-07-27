@@ -1,6 +1,6 @@
 {
   "name": "loops-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.JS client for interacting with loops.so",
   "main": "src/index.js",
   "scripts": {
