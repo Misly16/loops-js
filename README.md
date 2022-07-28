@@ -11,3 +11,12 @@ const Loops = require('loops-js');
 const client = new Loops('apiKey');
 await client.createContact('john.doe@example.com', 'John', 'Doe', 'payingCustomer', 'example.com');
 ```
+
+The following methods are available in the module
+```js
+testApiKey();
+createContact(email, firstName, lastName, userGroup, source');
+updateContact(email, firstName, lastName, userGroup, source);
+findContact(email);
+sendEvent(email, eventName);
+```
